@@ -7,7 +7,7 @@ Tiny automator scripts to add autojump support to OS X's Finder.app.
 - Built on top of the great [autojump] module for the shell.
 - Currently contains 2 scripts - `finder-autojump` and `finder-add-to-autojump`.
 - `finder-autojump` shows a text box in which you can enter your query - part of the folder's name that you want to open in finder. It will then query `autojump` and will open that folder in Finder. As simple as that. The dialog also supports jumping to any folder by supplying its full path (not only folders known to autojump).
-- `finder-add-to-autojump` adds the current Finder folder to autojump's db. This is done manually since (a) there's currently no way in OS X to add every folder visited by Finder to autojump's db and (b), even if there were one, I'm not sure it will be a good idea, since browsing unimportant folders through Finder seems more prevalent than through the terminal.
+- `finder-add-to-autojump` adds the current Finder folder to autojump's db. This is done manually since (a) there's currently no way in OS X to add every folder visited by Finder to autojump's db and (b), even if there was one, I'm not sure it will be a good idea, since browsing unimportant folders through Finder seems more prevalent than through the terminal.
 
 # Installation
 1. Have [autojump] working on your mac.
