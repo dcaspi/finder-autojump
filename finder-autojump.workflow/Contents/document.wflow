@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>display dialog "" default answer ""set dir to text returned of resulttry	set response to do shell script "export LC_ALL=en_US.UTF-8; export LANG=en_US.UTF-8; /usr/local/bin/autojump " &amp; dir	do shell script "open \"" &amp; response &amp; "\""on error theError	# Check if a full path is given	try		do shell script "open \"" &amp; dir &amp; "\""	on error secondError		display notification dir with title "Nothing found"	end tryend try</string>
+					<string>display dialog "Jump to..." default answer "" with title "Autojump"set dir to text returned of resulttry	set response to do shell script "export LC_ALL=en_US.UTF-8; export LANG=en_US.UTF-8; /usr/local/bin/autojump " &amp; dir	do shell script "open \"" &amp; response &amp; "\""on error theError	# Check if a full path is given	try		do shell script "open \"" &amp; dir &amp; "\""	on error secondError		display notification dir with title "Nothing found"	end tryend try</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
