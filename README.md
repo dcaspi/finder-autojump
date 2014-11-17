@@ -15,7 +15,7 @@ Tiny automator scripts to add autojump support to OS X's Finder.app.
 3. Double click both automator scripts to install them.
 4. While both scripts could be launched from OS X's drop-down menus, it is highly recommended to set up a keyboard shortcut for them through `Settings` > `Keyboard` > `Shortcuts` > `Services`. Mine are ⌘+⌥ +⌃+g for jumping and ⌘+⌥ +⌃+a for adding.
 
-# Usgae
+# Usage
 Pretty simple - just hit your predefined keyboard shortcut to pop up the text box or add the current folder to autojump (or, if you're doing it wrong, use the drop-down menu).
 
 **autojump in finder, Hell Yeah!**
